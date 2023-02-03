@@ -1,0 +1,50 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+header .logo {
+  height: 120px;
+  float: left;
+  color: black;
+}
+#logo {
+  height: 120px;
+  float: left;
+  padding-left: 150px;
+  padding-top: 20px;
+}
+header .navigation {
+  position: relative;
+  display: flex;
+}
+header .navigation li {
+  list-style: none;
+  margin-left: 30px;
+}
+header .navigation li a {
+  text-decoration: none;
+  color: rgba(133, 64, 8, 0.87);
+  font-weight: 1000;
+}
+header .navigation li a:hover {
+  color: #fff;
+}
+header.sticky {
+  background: rgb(8, 8, 8);
+  padding-top: 10px;
+  padding-right: 100px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+span {
+  color: rgba(252, 7, 7, 0.87);
+  font-weight: bold;
+}
+  

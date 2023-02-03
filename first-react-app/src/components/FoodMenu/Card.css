@@ -1,0 +1,39 @@
+* section {
+  position: relative;
+  overflow: hidden;
+  padding-top: 165px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+* .cards {
+  width: 250px;
+  padding: 20px;
+}
+
+.image_box img {
+  position: relative;
+  width: 150%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.details p:nth-child(1) {
+  font-weight: bold;
+}
+.details p:nth-child(2) {
+  color: grey;
+  font-size: 0.8rem;
+}
+.details p:nth-child(3) {
+  font-weight: bold;
+  color: grey;
+}
+.details button {
+  padding: 5px 10px;
+  border: none;
+  font-weight: bold;
+  background-color: #bb4907d3;
+  outline: none;
+  border-radius: 10px;
+}

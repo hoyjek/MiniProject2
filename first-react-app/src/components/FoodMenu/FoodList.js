@@ -1,0 +1,68 @@
+const list = [
+  {
+    id: 1,
+    MenuName: "Menu Name 1",
+    DesCribeDish: "Describe Dish",
+    price: 89,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMUzCpt_4SXIt1TFv9aGP76RbwvPabzwmM-o4slpqnJmsmIaDokmsg8TulyJAYurQCM0&usqp=CAU",
+    amount: 1,
+  },
+  {
+    id: 2,
+    MenuName: "Menu Name 2",
+    DesCribeDish: "Describe Dish",
+    price: 89,
+    img: "https://media.gq.com/photos/5582e7ad09f0bee56440739c/master/w_628,h_434,c_limit/copilot-food-travel-201405-1401310538219_best-food-instagrams-_0001_9.jpg",
+    amount: 1,
+  },
+  {
+    id: 3,
+    MenuName: "Menu Name 3",
+    DesCribeDish: "Describe Dish",
+    price: 89,
+    img: "https://stemandspoon.com/wp-content/uploads/2022/07/chicken-and-steak-stir-fry-recipe-13-720x720.jpg",
+    amount: 1,
+  },
+  {
+    id: 4,
+    MenuName: "Menu Name 4",
+    DesCribeDish: "Describe Dish",
+    price: 89,
+    img: "https://amiablefoods.com/wp-content/uploads/sinigang-na-baboy-1000.jpg",
+    amount: 1,
+  },
+  {
+    id: 5,
+    MenuName: "Menu Name 5",
+    DesCribeDish: "Describe Dish",
+    price: 89,
+    img: "https://www.foodandwine.com/thmb/jClJN8cL6-XXHLDL5Sk1LLGVem4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/sisig-explainer-ft-blog0617-fff367b6f39643af9b7f221ae73db294.jpg",
+    amount: 1,
+  },
+  {
+    id: 6,
+    MenuName: "Menu Name 6",
+    DesCribeDish: "Describe Dish",
+    price: 89,
+    img: "https://cdn.phonebooky.com/blog/wp-content/uploads/2019/07/26104203/Pepetons-Grill.jpg",
+    amount: 1,
+  },
+  {
+    id: 7,
+    MenuName: "Menu Name 7",
+    DesCribeDish: "Describe Dish",
+    price: 89,
+    img: "https://cdn.phonebooky.com/blog/wp-content/uploads/2021/05/11223105/pork-barbecue-from-golidlocks.jpg",
+    amount: 1,
+  },
+  {
+    id: 8,
+    MenuName: "Menu Name 8",
+    DesCribeDish: "Describe Dish",
+    price: 89,
+    img: "https://p4.wallpaperbetter.com/wallpaper/768/217/159/lemon-food-chicken-baked-wallpaper-preview.jpg",
+    amount: 1,
+  },
+];
+
+export default list;

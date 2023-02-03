@@ -1,0 +1,41 @@
+p {
+  font-weight: 300;
+  color: #111;
+}
+.banner {
+  position: relative;
+  background: url(../../public/assets/grill.jpg);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner .content {
+  max-width: 900px;
+  text-align: center;
+}
+.banner .content h2 {
+  font-size: 4em;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner .content p {
+  font-size: 2em;
+  color: #fff;
+}
+.btn {
+  font-size: 1em;
+  color: #fff;
+  background: #bb4907d3;
+  display: inline-block;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+.btn:hover {
+  letter-spacing: 6px;
+}

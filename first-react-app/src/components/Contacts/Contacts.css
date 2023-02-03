@@ -1,0 +1,16 @@
+.contact-img {
+  height: 50px;
+}
+#contacts {
+  list-style: none;
+}
+.tittleText {
+  color: #111;
+  font-size: 2em;
+  font-weight: 300;
+}
+.tittleText span {
+  color: rgba(133, 64, 8, 0.87);
+  font-weight: 700;
+  font-size: 1.5em;
+}
